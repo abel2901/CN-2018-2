@@ -17,7 +17,7 @@ n = input("Até onde você quer determinar a sequência? ")
 
 sequence = []
 
-for i in range(n):
+for i in range(int(n)):
     sequence.append(recur_tool(i+1))
     
 #print("Sequência: " + str(sequence))
